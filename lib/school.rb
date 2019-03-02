@@ -22,7 +22,7 @@ class School
       @roster[grade].sort
 
     }
-    
+    @roster
    end
 
 end
