@@ -17,6 +17,12 @@ class School
     @roster[number]
   end
 
+  def sort
+    @roster.keys.each { |grade|
+      @roster[grade].sort
 
+    }
+    
+   end
 
 end
